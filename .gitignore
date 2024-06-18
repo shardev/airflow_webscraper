@@ -1,0 +1,13 @@
+venv/
+*.csv
+.DS_Store
+example_*
+logs/*
+config.conf
+dags/__pycache__/
+dags/pipeline/__pycache__/
+*.log
+*.pid
+airflow.cfg
+__pycache__/
+*.db

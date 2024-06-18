@@ -1,0 +1,15 @@
+[database]
+database_host = localhost
+database_name = car_listings
+database_port = 5432
+database_username = YOUR_DB_ADMIN
+database_password = YOUR_DB_PASS
+
+[env]
+url = https://put-here-website-to-scrape/search?q=query_car
+
+[email]
+email_to = email_to@example.com
+smtp_user = smtp_user@example.com
+smtp_password = smtp_password
+smtp_mail_from = smtp_mail_from@example.com
